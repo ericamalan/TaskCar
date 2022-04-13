@@ -35,19 +35,19 @@ abstract class Car{
      
      
      
-     static final void start(){
+     public void start(){
          System.out.println("The Car is Started");
      }
-     static final void stop(){
+     public void stop(){
          System.out.println("The car has been stopped");
      }
-     static final void steerleft(){
+     public void steerleft(){
          System.out.println("Turned Left");
      }
-     static final void steerright(){
+     public void steerright(){
          System.out.println("Turned Right");
      }
-     static final void brake(){
+     public void brake(){
          System.out.println("Brake is enabled");
      }
      
