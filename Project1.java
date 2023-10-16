@@ -9,6 +9,16 @@ abstract class Car{
      private int weight; // weight in kg
      private int SeatingCapacity; //SeatingCapacity in no
      private int engine; // engine in cc
+     public void eric(){
+        System.out.println("20euec504");
+        System.out.println("Eric Amalan J");
+
+     }
+     public void dinesh(){
+        System.out.println("19euec039");
+        System.out.println("Dineshkumar.N");
+     }
+     
      
      Car(String CarName,String CarType,String Color,int width,int length,int weight,int SeatingCapacity,int engine){
          this.CarName = CarName;
